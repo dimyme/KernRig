@@ -1,10 +1,20 @@
-8 MB for the complete distro - i.e.: kernel, glibc, busybox. That's it.
+8 MegaByte of image.ISO size for the complete distro - i.e.: kernel, glibc, busybox. That's it.
 
 https://dimyme.github.io/KernRig/
 
 no bash, no mc, no python, no nothing.
 
-The most spectacular thing it can do is ping, ls and cd, using a brand new 5.x kernel.
+The most spectacular thing it can do is ping, ls and cd, using a brand new 5.x kernel. 
+
+So its nice for testing kernel features or libC bugs, but not much more. 
+
+In particular, while setfont is shipped, it does nothing. 
+
+You must compile fonts into the kernel to set fonts  ;-)
+
+And then, the less code is there, the less code can break. 
+
+This distro is quite stable! Has refreshingly few files below /
 
 ---
 
