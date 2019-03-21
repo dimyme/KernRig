@@ -1,3 +1,12 @@
+8 MB for the complete distro - i.e.: kernel, glibc, busybox. That's it.
+
+no bash, no mc, no python, no nothing.
+
+The most spectacular thing it can do is ping, ls and cd, using a brand new 5.x kernel.
+
+---
+
+
 # Minimal Linux Live [<img align="right" src="https://travis-ci.org/ivandavidov/minimal.svg?branch=master">](https://travis-ci.org/ivandavidov/minimal)
 
 * [Overview](#overview)
